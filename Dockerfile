@@ -1,5 +1,6 @@
 FROM node:16.6.2
 
+RUN mkdir -p  /usr/src/app
 # Create app directory
 WORKDIR /usr/src/app
 
@@ -16,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Start Node server
-CMD [ "npm", "start" ]
+CMD [ "npm", "run", "dev" ]
