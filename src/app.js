@@ -8,5 +8,5 @@ app.get('/', async (req, res, next) => {
 
 require('./database');
 
-app.listen(3000, () => console.log(' Server sis running on port 5000 '))
+app.listen(3000, () => console.log(' Server sis running on port 5000 - '))
 
